@@ -15,4 +15,4 @@ class Payment(models.Model):
 
     address = models.ForeignKey(Address, on_delete=models.CASCADE)
 
-    left_date = models.DateTimeField('Join Date')
+    left_date = models.DateTimeField('Left Date')
